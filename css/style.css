@@ -1,0 +1,68 @@
+nav {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10pt;
+	background-color: #fff;
+	padding: 50px;
+	color: #e5e5e7;
+}
+footer {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10pt;
+	background-color: #fff;
+	padding: 50px 50px 200px 50px;
+	color: #e5e5e7;
+}
+body {
+	background-image: url("http://dabiri1380.persiangig.com/texture/papar_texture_thumb03.jpg");
+    text-align: center;
+    padding: 0px;
+	margin: 0px;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32pt;
+	padding: 20px 0px;
+	margin: 0px;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20pt;
+	padding: 0px;
+	margin: 0px;
+}
+p {
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	padding: 10px 150px 50px 150px;
+ 	margin: 0px;
+}
+hr {
+ 	width:90%;
+ 	margin-left: 0px;  
+ 	text-align: left;
+}
+img {
+	padding: 20px;
+	margin: 0px;
+}
+/* unvisited link */
+a:link {
+    color: #acb1b4;
+}
+
+/* visited link */
+a:visited {
+    color: #acb1b4;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: #acb1b4;
+}
+
