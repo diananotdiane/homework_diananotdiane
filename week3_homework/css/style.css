@@ -1,0 +1,123 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ Project Name: homework option level- medium
+ Client: homework 3
+ Author: Diana Chamberlain
+ Developer diananotdiane in DTLA
+ */
+.brand-heading {
+	font-size: 50px;
+}
+
+.intro .intro-body .intro-text {
+	font-size: 40px;
+}
+
+.photo-section {
+	margin-top: 0px;
+	padding: 100px 0px;
+	background: url(../img/photo-bg.jpg) no-repeat top center scroll;
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.photo-section a {
+	margin-top: 20px;
+}
+.instagram {
+	border: 1px solid white;
+	padding: 100px 0px;
+}
+.contact-section {
+	width: 100%;
+	color: white;
+	padding: 100px 0px;
+	background: url(../img/contact-bg.jpg) no-repeat bottom center scroll;
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.about {
+	text-align: center;
+}
+
+#about p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: medium;
+	line-height: 1.5;
+}
+
+.about img {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+
+ul.social-buttons {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+ul.social-buttons li a {
+	display: block;
+	background-color: #34495E;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+	background-color: #5499C7;
+}
+
+.video-section .youtube{
+	margin-top: 10px;
+}
+
+#map {
+	margin-top: 0px;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-family: 'Pangolin', cursive;
+	font-weight: 400;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 0;
+}
+
+.btn-default {
+	border: 1px solid #34495E;
+	color: white;
+	background-color: #34495E;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+	border: 1px solid #34495E;
+	outline: none;
+	color: white;
+	background-color: #34495E;
+}
