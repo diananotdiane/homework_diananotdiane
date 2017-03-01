@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Diana Chamberlain</title>
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <i class="fa fa-smile-o"></i> Diana Chamberlain</span>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>portfolio</h1>
+          </div>
+
+          
+          <div class="col-md-4">
+            <div id="printFolio">
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a id="morePrint" class="button btn" role="button">more print designs &raquo;</a></p>
+              <!-- START Modal Print Design Portofolio -->
+              <div id="printModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">print design</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div id="printcarousel">
+                        <div id="carousel-print" class="carousel slide">
+                          <!-- Modal Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-print" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-print" data-slide-to="1"></li>
+                            <li data-target="#carousel-print" data-slide-to="2"></li>
+                            <li data-target="#carousel-print" data-slide-to="3"></li>
+                          </ol>
+                          <!-- Modal wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="./images/600x600.jpg" alt="1">
+                              <div class="carousel-caption">
+                                print 1
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="2">
+                              <div class="carousel-caption">
+                                print 2
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="3">
+                              <div class="carousel-caption">
+                                print 3
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="4">
+                              <div class="carousel-caption">
+                                print 4
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Modal controls -->
+                          <a class="left carousel-control" href="#carousel-print" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-print" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal Web Design Portofolio -->
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div id="webFolio">
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a id="moreWeb" class="button btn" role="button">more web designs &raquo;</a></p>
+              <!-- START Modal Web Design Portofolio -->
+              <div id="webModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">web design</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div id="webcarousel">
+                        <div id="carousel-web" class="carousel slide">
+                          <!-- Modal Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-web" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-web" data-slide-to="1"></li>
+                            <li data-target="#carousel-web" data-slide-to="2"></li>
+                            <li data-target="#carousel-web" data-slide-to="3"></li>
+                          </ol>
+                          <!-- Modal wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="./images/600x600.jpg" alt="1">
+                              <div class="carousel-caption">
+                                web 1
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="2">
+                              <div class="carousel-caption">
+                                web 2
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="3">
+                              <div class="carousel-caption">
+                                web 3
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="4">
+                              <div class="carousel-caption">
+                                web 4
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Modal controls -->
+                          <a class="left carousel-control" href="#carousel-web" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-web" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal Web Design Portofolio -->    
+           </div>
+         </div>
+
+          <div class="col-md-4">
+            <div id="photoFolio">
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <p><a id="morePhoto" class="button btn" role="button">more photography &raquo;</a></p>
+              <!-- START Modal Photography Portofolio -->
+              <div id="photoModal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">photography</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div id="webcarousel">
+                        <div id="carousel-photo" class="carousel slide">
+                          <!-- Modal Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-photo" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-photo" data-slide-to="1"></li>
+                            <li data-target="#carousel-photo" data-slide-to="2"></li>
+                            <li data-target="#carousel-photo" data-slide-to="3"></li>
+                          </ol>
+                          <!-- Modal wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="./images/600x600.jpg" alt="1">
+                              <div class="carousel-caption">
+                                photo 1
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="2">
+                              <div class="carousel-caption">
+                                photo 2
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="3">
+                              <div class="carousel-caption">
+                                photo 3
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="./images/600x600.jpg" alt="4">
+                              <div class="carousel-caption">
+                                photo 4
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Modal controls -->
+                          <a class="left carousel-control" href="#carousel-photo" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-photo" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END Modal Phototgraphy Portofolio -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  <!-- Contact Section -->
+  <div class="container">
+    <div id="contact">    
+      <div class="row">
+        <div class="col-xs-12">
+          <h1  class="brand-heading">Contact Me</h1>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Message</label>
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <hr>
+
+  <div class="container">
+    <footer>
+      <p>&copy; 2017 Diana Chamberlain, Inc.</p>
+    </footer>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
