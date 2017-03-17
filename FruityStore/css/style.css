@@ -1,0 +1,28 @@
+body {
+    padding: 50px;
+}
+
+.product {
+	background-color: #F4F6F6;
+	padding: 10px;
+}
+
+.title {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.details {
+	font-size: 10px;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.price {
+	font-size: 18px;
+	color: green;
+}
+
+.quantity {
+	margin-bottom: 10px;
+}
