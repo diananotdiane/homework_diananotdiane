@@ -1,0 +1,201 @@
+body {
+	background-color: #F8F9F9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h2, h3 {
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	padding: 0px;
+}
+
+h3 {
+	font-size: 9pt;
+	color: #F48FB1;
+}
+
+h4 {
+	font-size: 11pt;
+	color: #F48FB1;
+	text-align: left;
+	padding-bottom: 20px;
+	font-style: italic;
+	font-weight: bolder;
+	line-height: 15pt;
+	margin-left: 5px;
+}
+
+a:link, a:visited {
+    color: #ABB2B9;
+}
+
+a:active {
+	color: #616161;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #616161;
+}
+
+.cart-btn {
+	background: #fde8ef;
+	color: #F48FB1;
+	font-weight: 900;
+}
+
+.cart-btn:active {
+	background: #F48FB1;
+	color: #000000;
+	font-weight: 300;
+} 
+
+.cart-btn:hover {
+	background: #fde8ef;
+	color: #FFFFFF;
+	font-weight: 900;
+}
+
+#grandCheckout {
+	color: #F48FB1;
+	font-weight: 900;
+	font-size: 14pt;
+}
+
+.navbar li a:hover,
+.navbar li a:focus {
+	text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar {
+	text-align: center;
+	padding-bottom: 0px;
+	font-family: 'Muli', sans-serif;
+	margin: 0px;
+	border-bottom: 2px solid #E5E8E8;
+}
+
+.navbar li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar button {
+	background-color: #EAEDED;
+	color: #616161;
+	text-align: center;
+}
+
+
+.logo-wrapper {
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+}
+
+.mySlides {
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.redirectContact {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.subscribe {
+	padding: 20px;
+	background-color: #E5E8E8;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.subscribeText {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+#sidebanner {
+	margin-top: 20px;
+}
+
+#shopnow {
+	font-size: 12px;
+	font-family: 'Muli', sans-serif;
+}
+
+.shopbutton {
+	padding: 10px 20px;
+	background-color: #ffffff;
+}
+
+.cards {
+	text-align: center;
+	margin: 0px;
+}
+
+.product {
+	text-align: center;
+	padding: 30px 10px;
+	margin: 0px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.modal-body input {
+	padding: 10px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.footer {
+	padding: 50px 0px;
+	margin-top: 20px;
+	border-top: 2px solid #E5E8E8;
+}
+
+footer, li {
+	display: inline;
+}
+
+.fa {
+	padding-left: 10px;
+}
+.copyright {
+	text-align: left;
+}
+
+.socialmedia {
+	text-align: right;
+}
+
+.cart-image {
+	height: 70px;
+	padding-right: 20px;
+}
+
+.badge-pill {
+	background-color: #85929E;
+	font-size: 12pt;
+	border-radius: 2px;
+	padding: 10px;
+}
+
+.policyHeading {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
