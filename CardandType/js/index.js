@@ -99,6 +99,9 @@ $(function(){
             total = total + (quantity * price);
 
             console.log(total, cart);
+
+            //Open customize modal
+            $('#personalizeModal').modal();
         });
     };
 
